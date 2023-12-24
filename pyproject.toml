@@ -1,0 +1,27 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Taras Nytiaha", email = "taras.nytiaha@gmail.com"},
+]
+dependencies = [
+    "django>=5.0",
+    "psycopg2-binary>=2.9.9",
+    "djangorestframework>=3.14.0",
+    "django-filter>=23.5",
+    "Markdown>=3.5.1",
+    "elasticsearch==7.12.0",
+    "elasticsearch-dsl==7.3.0",
+    "django-elasticsearch-dsl>=7.4",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ipython>=8.19.0",
+    "ipdb>=0.13.13",
+    "black>=23.12.1",
+]
